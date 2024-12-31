@@ -1,0 +1,14 @@
+### Create Products
+
+POST http://localhost:8080/odata/v4/AdminService/Products
+Content-Type: application/json
+Authorization: Basic sabine:pass_sabine
+
+{
+  "title": "Title_1",
+  "descr": "Description_1",
+  "stock": 50,
+  "price": 10,
+  "currency_code": "EUR"
+}
+
