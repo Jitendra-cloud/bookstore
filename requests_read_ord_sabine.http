@@ -1,0 +1,5 @@
+### Read Orders as Sabine (Administrator)
+
+GET http://localhost:8080/odata/v4/OrdersService/Orders
+Accept: application/json
+Authorization: Basic sabine:pass_sabine
